@@ -74,6 +74,7 @@ studentRouter.get("/info/:id", async (req, res) => {
       groupe: 1,
       narration: 1,
       email: 1,
+      password: 1,
     }
   );
   res.send(newStudentsList);
